@@ -1,5 +1,7 @@
 # Portafolio
-<img> 
+
+
+<img src="assets/img/trazado.jpg">
 
 
 
