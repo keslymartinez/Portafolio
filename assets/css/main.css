@@ -22,5 +22,17 @@ body {
 }
 
 .nav-link {
+	position: relative;
 	color: white;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+	color: #dd800b;
+
+}
+.card {
+	background-color: #3f2d3b;
+	margin: 2px;
 }
