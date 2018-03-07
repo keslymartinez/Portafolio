@@ -36,3 +36,22 @@ h1 {
 	background-color: #3f2d3b;
 	margin: 2px;
 }
+#profile {
+	position:relative;
+	height: 200px;
+	width: 200px;
+	margin: 40px;
+}
+
+.fa-github, .fa-linkedin-in, .fa-envelope {
+	position: relative;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	margin:1em;
+	
+	}
+.progress {
+	margin: 2em;
+	position: relative;
+}
