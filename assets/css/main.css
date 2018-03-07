@@ -40,7 +40,7 @@ h1 {
 	position:relative;
 	height: 200px;
 	width: 200px;
-	margin: 40px;
+	margin:-28px;
 }
 
 .fa-github, .fa-linkedin-in, .fa-envelope {
@@ -54,4 +54,8 @@ h1 {
 .progress {
 	margin: 2em;
 	position: relative;
+}
+.presentacion{
+	position: relative;
+	color:white;
 }
