@@ -33,14 +33,15 @@ h1 {
 
 }
 .card {
-	background-color: #3f2d3b;
+	background-color: #A9A9A9;
 	margin: 2px;
+	opacity: 0.5;
 }
-#profile {
+  #profile {
 	position:relative;
-	height: 200px;
-	width: 200px;
-	margin:-28px;
+	height: 300px;
+	width: 300px;
+	
 }
 
 .fa-github, .fa-linkedin-in, .fa-envelope {
@@ -58,4 +59,9 @@ h1 {
 .presentacion{
 	position: relative;
 	color:white;
+}
+.ver {
+	margin: 90px auto 0;
+    padding: 12px;
+    width: 180px;
 }
