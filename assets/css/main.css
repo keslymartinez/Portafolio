@@ -23,7 +23,7 @@ body {
 
 .nav-link {
 	position: relative;
-	color: white;
+	color: black;
 }
 
 h1 {
@@ -48,7 +48,7 @@ h1 {
 	position: relative;
 	font-size: 2em;
 	text-align: center;
-	color: white;
+	color: black;
 	margin:1em;
 	
 	}
@@ -64,4 +64,31 @@ h1 {
 	margin: 90px auto 0;
     padding: 12px;
     width: 180px;
+}
+.skills{
+	background-color: white;
+	height: 400px;
+	width: 700px;
+	position: relative;
+	margin: 4em;
+	font-size: 40px;
+}
+.about {
+	background-color: white;
+	height: 300px;
+	width: 700px;
+	position: relative;
+	margin: 4em;
+
+}
+.contact {
+	background-color: white;
+	height: 300px;
+	width: 700px;
+	position: relative;
+	margin: 4em;
+
+}
+i {
+	color: black;
 }
