@@ -19,28 +19,21 @@ body {
   height: 100%;
   position: fixed;
   background: rgba(0,0,0,.8);
+
 }
 
-.nav-link {
-	position: relative;
-	color: black;
-}
 
 h1 {
 	position: relative;
-	text-align: center;
 	color: #dd800b;
 
-}
-.card {
-	background-color: #A9A9A9;
-	margin: 2px;
-	opacity: 0.5;
+
+
 }
   #profile {
 	position:relative;
-	height: 300px;
-	width: 300px;
+	height: 250px;
+	width: 250px;
 	
 }
 
@@ -52,9 +45,6 @@ h1 {
 	margin:1em;
 	
 	}
-.progress {
-	margin: 2em;
-	position: relative;
 }
 .presentacion{
 	position: relative;
@@ -66,29 +56,36 @@ h1 {
     width: 180px;
 }
 .skills{
-	background-color: white;
-	height: 400px;
-	width: 700px;
 	position: relative;
 	margin: 4em;
 	font-size: 40px;
 }
-.about {
-	background-color: white;
-	height: 300px;
-	width: 700px;
-	position: relative;
-	margin: 4em;
 
-}
-.contact {
-	background-color: white;
-	height: 300px;
-	width: 700px;
-	position: relative;
-	margin: 4em;
 
+
+#presetancion{
+	position: relative;
+	margin: 35px;
 }
-i {
-	color: black;
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+  main {
+    flex: 1 0 auto;
+}
+.page-footer {
+	position: relative;
+}
+
+.material-icons {
+	margin: 2px;
+}
+
+.btn {
+	margin: 40px;
+
 }
