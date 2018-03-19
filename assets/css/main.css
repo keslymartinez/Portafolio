@@ -24,49 +24,42 @@ h1 {
 	height: 250px;
 	width: 250px;
 }
-.fa-github, .fa-linkedin, .fa-envelope, .fa-download {
+ .fa-linkedin, .fa-envelope, .fa-download {
 	position: relative;
 	font-size: 2em;
 	text-align: center;
 	color: black;
 	margin:1em;
 }
-
-
-
 .ver {
 	margin: 90px auto 0;
-    padding: 12px;
-    width: 180px;
+  padding: 12px;
+  width: 180px;
 }
-.skills{
+#skills{
 	position: relative;
-	margin: 4em;
-	font-size: 40px;
+	margin: 35px;
+  font-size: 40px;
+  color: black;
 }
-
 #presetancion{
 	position: relative;
 	margin: 35px;
 }
-
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    background-color:#ea80fc;
-
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color:#ea80fc;
 }
 
  main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .page-footer {
 	position: relative;
 	margin: 35px;
-
-
 }
 
 .material-icons {
@@ -76,4 +69,22 @@ body {
 .btn {
 	margin: 40px;
 }
+#about {
+	position: relative;
+	margin: 35px;
 
+}
+#trabajos {
+	 position: relative;
+	 margin: 35px;
+
+}
+#texto {
+	font-size: 50px;
+}
+
+.trivia, .foodmap, .insta {
+	position: relative;
+	margin: 35px;
+	max-height: 30vh;
+}
