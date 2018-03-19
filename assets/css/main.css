@@ -5,13 +5,6 @@
 	-moz-box-sizing: border-box;
 }
 
-body {
-	background: url(../img/san-francisco.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-
-
-}
 /* ---- particles.js container ---- */
 
 #particles-js{
@@ -19,37 +12,28 @@ body {
   height: 100%;
   position: fixed;
   background: rgba(0,0,0,.8);
-
 }
-
 
 h1 {
 	position: relative;
 	color: #dd800b;
-
-
-
 }
-  #profile {
+
+#profile {
 	position:relative;
 	height: 250px;
 	width: 250px;
-	
 }
-
-.fa-github, .fa-linkedin-in, .fa-envelope {
+.fa-github, .fa-linkedin, .fa-envelope, .fa-download {
 	position: relative;
 	font-size: 2em;
 	text-align: center;
 	color: black;
 	margin:1em;
-	
-	}
 }
-.presentacion{
-	position: relative;
-	color:white;
-}
+
+
+
 .ver {
 	margin: 90px auto 0;
     padding: 12px;
@@ -61,24 +45,28 @@ h1 {
 	font-size: 40px;
 }
 
-
-
 #presetancion{
 	position: relative;
 	margin: 35px;
 }
 
- body {
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color:#ea80fc;
+
 }
 
-  main {
+ main {
     flex: 1 0 auto;
 }
+
 .page-footer {
 	position: relative;
+	margin: 35px;
+
+
 }
 
 .material-icons {
@@ -87,5 +75,5 @@ h1 {
 
 .btn {
 	margin: 40px;
-
 }
+
