@@ -4,13 +4,12 @@
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<title>Portafolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css" media="screen,projection">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 <script src="typed.js-master/lib/typed.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
 </head>
 <body>
 
@@ -20,148 +19,195 @@
 <!--Profile-->
 <div id="presetancion">
   <div class="s12 m4 l8 offset-m2 l6 offset-l3">
-    <div class="card-panel grey lighten-1 z-depth-1">
+    <div class="card-panel  indigo darken-1
+z-depth-1">
       <div class="row valign-wrapper">
         <div class="col s3">
           <img src="assets/img/foto_perfil.jpg" alt="" class="circle responsive-img">
           <!-- notice the "circle" class -->
         </div>
-        <div class="col s9" id="texto" >
+        <div class="col s9" id="texto">
           <span class="white-text center-align ">
           </span>
-          <div class="card-action right-aling">
-            <a id="ver" class="waves-effect  grey darken-1 waves-light btn">Ver Portafolio</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- muestra los trabajos -->
-<div id="trabajos">
-<div class="foodmap">
-  <div class="row">
-    <div class="col s12">
-      <div class="card">
-        <div>
-          <h5 class="center-align">Works</h5>
-        </div>
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="assets/img/comida.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">FoodMap<i class="material-icons right">more_vert</i></span>
-          <p>
-            <a href="#">Ver</a>
-          </p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">FoodMap<i class="material-icons right">close</i></span>
-          <p>
-            Encuentra tu comida favorita
-          </p>
+<!--collapsible-->
+<div id="acordeon" >
+<ul class="collapsible expandable">
+  <li>
+  <div class="collapsible-header indigo darken-1">
+    <i class="material-icons">filter_drama</i>Works
+  </div>
+  <div class="collapsible-body grey lighten-1 ">
+    <span>
+    <div id="trabajos">
+    <div class="container">
+      <div class="foodmap">
+        <div class="row">
+          <div class="col s4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+              <a href="https://keslymartinez.github.io/x3Place/">
+                <img class="activator" src="assets/img/parque.jpg"></a>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Encuentra tu parque<i class="material-icons right">more_vert</i></span>
+                <p>
+                  <a href="https://keslymartinez.github.io/x3Place/">Ver</a>
+                </p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Parque cercanos a ti<i class="material-icons right">close</i></span>
+                <p>
+                  Con esta aplicacion te ayudara a buscar parque cercanos y como llegar tambien hay un chatboot para que le hagas preguntas y tambien puedes iniciar session con facebook
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="trivia">
+            <div class="col s4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                <a href="https://keslymartinez.github.io/trivia-/"></a>
+                  <img class="activator" src="assets/img/Trivia.jpg"></a>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Trivia<i class="material-icons right">more_vert</i></span>
+                  <p>
+                    <a href="https://keslymartinez.github.io/trivia-/">Ver</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Trivia<i class="material-icons right">close</i></span>
+                  <p>
+                     Responde las preguntas y sabras tu nivel de conocimiento
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="insta">
+            <div class="col s4">
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/img/collage-de-la-vida-26089479.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">InstaColage<i class="material-icons right">more_vert</i></span>
+                  <p>
+                    <a href="https://keslymartinez.github.io/InstaCollage/">Ver</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">cerrar</i></span>
+                  <p>
+                     Agrega tus fotos y crea tu propio collage
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    </div>
+    </span>
+  </li>
+  <li>
+  <!--skills-->
+  <div class="collapsible-header  indigo accent-1">
+    <i class="material-icons"><i class="fas fa-briefcase"></i></i>Skills
   </div>
- </div> 
-
-  <div class="row">
-  <div class="trivia">
-    <div class="col s12">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="assets/img/Trivia.jpg">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Trivia<i class="material-icons right">more_vert</i></span>
-          <p>
-            <a href="#">Ver</a>
-          </p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Trivia<i class="material-icons right">close</i></span>
-          <p>
-            Responde las preguntas y sabras tu nivel de conocimiento
-          </p>
+  <div class="collapsible-body grey lighten-1">
+    <span>
+    <div id="skills">
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel grey lighten-1 center-align">
+            <span class="card-title">Skills</span>
+            <p>
+            </p>
+            <div>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3"></i>
+            <i class="fab fa-react"></i>
+            <i class="fas fa-code-branch"></i>
+            <i class="fab fa-node-js"></i>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    </span>
   </div>
-</div>  
-  <div class="row">
-  <div class="insta">
-    <div class="col s12">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="assets/img/InstaCollage.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">InstaColage<i class="material-icons right">more_vert</i></span>
-          <p>
-            <a href="#">Ver</a>
-          </p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">cerrar</i></span>
-          <p>
-            Agrega tus fotos y crea tu propio collage
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<!-- skills -->
-<div id="skills">
+  </li>
+  <li>
+  <!-- About --> <li>
+      <div class="collapsible-header indigo accent-1" ><i class="material-icons">filter_drama</i>First</div>
+      <div class="collapsible-body grey lighten-1"><span><div id="about">
   <div class="row">
     <div class="col s12">
-      <div class="card-panel grey lighten-1 center-align">
-        <span class="card-title">Skills</span>
+      <div class="card-panel indigo darken-1 center align">
+        <h3 class="black-text">About me</h3>
         <p>
+          Me encanta el trabajo en equipo siempre estoy en busqueda de nuevos desafios, que desarrollen mi capacidad y crear experiencias. me caracterizo por ser alegre, me encantan los viajes y conciertos!
         </p>
-        <i class="fab fa-js-square"></i>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3"></i>
-        <i class="fab fa-react"></i>
       </div>
     </div>
   </div>
+</div><span></div>
+    </li>
+    <li>
+  <!--Contactos-->
+  <div class="collapsible-header indigo darken-1 ">
+    <i class="material-icons">person</i>Contacto
+  </div>
+  <div class="collapsible-body grey lighten-1">
+    <span><footer class="page-footer grey lighten-1 center-align ">
+    <div class="row">
+      <div class="col s12">
+        <h2 class="black-text">Contacto</h2>
+      <h5>keslymartinezvaldes@gmail.com</h5>
+      <a href="https://www.linkedin.com/in/kesly-martinez/">
+        <i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/keslymartinez"><i class="fab fa-github"></i></a>
+        <i class="fas fa-download"></i></a>
+        <h6>© 2018 Kesly Martinez</h6>
+      </div>
+    </div>
+    </footer></span>
+  </div>
+  </li>
+</ul>
 </div>
+
+  
+  
+
+
+
+
 <!--About me -->
-<div id="about">
-  <div class="row">
-    <div class="col s12">
-      <div class="card-panel grey lighten-1 center align">
-        <h2 class="black-text">About me</h2>
-        <p>
-          Me encanta el trabajo en equipo
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Contactos-->
-<footer class="page-footer grey lighten-1 center-align ">
-<div class="row">
-  <div class="col s12">
-    <h2 class="black-text">Contacto</h2>
-    <i class="fas fa-envelope"></i>
-    <i class="fab fa-linkedin"></i>
-    <i class="fas fa-download"></i>
-    <h6>© 2018 Kesly Martinez</h6>
-  </div>
-</div>
-</footer>
 
+<!--Contactos-->
+
+ 
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+  <script src="assets/js/materialize.min.js" type="text/javascript"></script>
+
 <script  src="assets/js/particle.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/app2.js" type="text/javascript"></script>
 
+
+ 
 </body>
 </html>

@@ -24,7 +24,7 @@ h1 {
 	height: 250px;
 	width: 250px;
 }
- .fa-linkedin, .fa-envelope, .fa-download {
+ .fa-github,.fa-linkedin, .fa-envelope, .fa-download {
 	position: relative;
 	font-size: 2em;
 	text-align: center;
@@ -74,17 +74,21 @@ body {
 	margin: 35px;
 
 }
-#trabajos {
+#trabajos{
 	 position: relative;
-	 margin: 35px;
+	 margin: 114px;
+	 height: 200px;
 
 }
 #texto {
-	font-size: 50px;
+	font-size: 30px;
+	margin:20px;
 }
 
-.trivia, .foodmap, .insta {
+
+.collapsible {
 	position: relative;
+}
+#acordeon {
 	margin: 35px;
-	max-height: 30vh;
 }
