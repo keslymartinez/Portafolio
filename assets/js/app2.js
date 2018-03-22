@@ -1,3 +1,31 @@
+/** $(document).ready(function(){
+$('ul.tabs li a:first').addClass('active');
+$('.sesiones article').hide();
+$('.sesiones article:first').show();
+
+
+$('ul.tabs li a').click(function(){
+	$('ul.tabs li a').removeClass('active');
+	$(this).addClass('active');
+	$('.sesiones article').hide();
+
+	var activeTab = $(this).attr('href');
+	$(activeTab).show();
+	return false;
+
+	});
+});
+**/ 
+//funcion para skills
+	
+
+
+$( document ).ready(function() {
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({ target: '.navbar-fixed-top' })
+});
+
+
 
 
 
@@ -8,12 +36,7 @@ var  typed = new Typed ('.white-text', {
 	fadeOut:true,
 	loop:true,
 })
-//boton para ver portafolio
+//  boton para ver portafolio
 
  
      
- var elem = document.querySelector('.collapsible.expandable');
-var instance = M.Collapsible.init(elem, {
-  accordion: false
-});
-       

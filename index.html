@@ -4,134 +4,149 @@
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<title>Portafolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css" media="screen,projection">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 <script src="typed.js-master/lib/typed.min.js" type="text/javascript"></script>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/js/fontawesome-all.js">
 
 </head>
 <body>
 
-<!--Fondo de particula -->
+<!--Fondo de particula 
 <div id="particles-js">
 </div>
-<!--Profile-->
-<div id="presetancion">
-  <div class="s12 m4 l8 offset-m2 l6 offset-l3">
-    <div class="card-panel  indigo darken-1
-z-depth-1">
-      <div class="row valign-wrapper">
-        <div class="col s3">
-          <img src="assets/img/foto_perfil.jpg" alt="" class="circle responsive-img">
-          <!-- notice the "circle" class -->
-        </div>
-        <div class="col s9" id="texto">
-          <span class="white-text center-align ">
-          </span>
-          </div>
-        </div>
+-->
+  
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">         
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">                
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://www.linkedin.com/in/kesly-martinez" >Kesly Martinez</a>        
       </div>
+      <div id="navbar-collapse-1" class="collapse navbar-collapse">      
+           </div>
+         <div class="col-lg-6">
+            <ul class="nav nav-pills nav-stacked">
+            <li>
+              <a href="#section1"><p>Home<p></a>
+                </li>
+                  <li>
+                  <a href="#section2"><p>About</p></a>
+                </li>
+                <li>
+                  <a href="#section3"><p>Portafolio</p></a>
+                </li>
+                <li>
+                  <a href="#section4"><p>Skills</p></a>
+                </li>
+                  <li>
+                  <a href="#section5"><p>Contact</p></a>
+                </li>
+             </ul>
+           </div> 
+    
+  </nav>    
+<div id="section1" class="pageHome">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="intro-message">
+          <h1>Kesly Martinez</h1>
+          <h3>FronEnd Developer</h3>   
+          <hr>
+        </div>
+       </div>
+   </div>
+   </div> 
+  </div>
+
+
+  <a name="about"></a>
+   <div id="section2" class="pageAbout">
+     <div class="container">
+       <div class="row text-and-picture">
+      <div class="col-md-7">
+         <p class="about-me text-center">   
+          <span class="white-text center-align ">          
+          </span> 
+          
+        </p>
+       </div> 
+       <div class="col-md-5 picture">
+         <img class="rounded-circle img-responsive" alt=""  src="assets/img/foto_perfil.jpg">
+       </div> 
     </div>
+    </div>
+   </div>  
+  <div id="section3" class="pagePortfolio"> 
+  <div class="container text-center">
+  <h1 >Portafolio</h1>
+  <div class="row">
+  <div class="col-sm-6">
+   <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="assets/img/Trivia.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Trivia</h5>
+    <p class="card-text">Juega a responder estas preguntas</p>
+    <a href="https://keslymartinez.github.io/trivia-/" class="btn btn-primary">ver</a>
   </div>
 </div>
-<!--collapsible-->
-<div id="acordeon" >
-<ul class="collapsible expandable">
-  <li>
-  <div class="collapsible-header indigo darken-1">
-    <i class="material-icons">filter_drama</i>Works
   </div>
-  <div class="collapsible-body grey lighten-1 ">
-    <span>
-    <div id="trabajos">
-    <div class="container">
-      <div class="foodmap">
-        <div class="row">
-          <div class="col s4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-              <a href="https://keslymartinez.github.io/x3Place/">
-                <img class="activator" src="assets/img/parque.jpg"></a>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Encuentra tu parque<i class="material-icons right">more_vert</i></span>
-                <p>
-                  <a href="https://keslymartinez.github.io/x3Place/">Ver</a>
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Parque cercanos a ti<i class="material-icons right">close</i></span>
-                <p>
-                  Con esta aplicacion te ayudara a buscar parque cercanos y como llegar tambien hay un chatboot para que le hagas preguntas y tambien puedes iniciar session con facebook
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="trivia">
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                <a href="https://keslymartinez.github.io/trivia-/"></a>
-                  <img class="activator" src="assets/img/Trivia.jpg"></a>
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Trivia<i class="material-icons right">more_vert</i></span>
-                  <p>
-                    <a href="https://keslymartinez.github.io/trivia-/">Ver</a>
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Trivia<i class="material-icons right">close</i></span>
-                  <p>
-                     Responde las preguntas y sabras tu nivel de conocimiento
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="insta">
-            <div class="col s4">
-              <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/img/collage-de-la-vida-26089479.jpg">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">InstaColage<i class="material-icons right">more_vert</i></span>
-                  <p>
-                    <a href="https://keslymartinez.github.io/InstaCollage/">Ver</a>
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">cerrar</i></span>
-                  <p>
-                     Agrega tus fotos y crea tu propio collage
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="col-sm-6">
+   <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="assets/img/pokemon.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Pokemom</h5>
+    <p class="card-text">Busca tu pokemon</p>
+    <a href="https://keslymartinez.github.io/pokedex/"" class="btn btn-primary">ver</a>
+  </div>
+</div>
+  
       </div>
     </div>
-    </div>
-    </span>
-  </li>
-  <li>
-  <!--skills-->
-  <div class="collapsible-header  indigo accent-1">
-    <i class="material-icons"><i class="fas fa-briefcase"></i></i>Skills
   </div>
-  <div class="collapsible-body grey lighten-1">
-    <span>
-    <div id="skills">
+
+<div class="container">
+  <div class="row">
+  <div class="col-sm-6">
+   <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="assets/img/parque.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">NearMe</h5>
+    <p class="card-text">Busca tu parque mas cecarno</p>
+    <a href="https://keslymartinez.github.io/x3Place/" class="btn btn-primary">ver</a>
+  </div>
+</div>
+  </div>
+  <div class="col-sm-6">
+   <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="assets/img/collage-de-la-vida-26089479.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">InstaCollage</h5>
+    <p class="card-text">Aqui podras armar tu propio collage</p>
+    <a href="https://keslymartinez.github.io/InstaCollage/"" class="btn btn-primary">ver</a>
+  </div>
+</div>
+  
+      </div>
+    </div>
+  </div>
+    </div>
+
+   <!-- skills -->
+
+    <div id="section4" class="pageContactMe">
+    <div class="container text-center">
       <div class="row">
-        <div class="col s12">
-          <div class="card-panel grey lighten-1 center-align">
-            <span class="card-title">Skills</span>
-            <p>
-            </p>
-            <div>
+        <div class="col-sm-12">
+            <h1>Skills</h1>           
             <i class="fab fa-js-square"></i>
             <i class="fab fa-html5"></i>
             <i class="fab fa-css3"></i>
@@ -142,72 +157,38 @@ z-depth-1">
           </div>
         </div>
       </div>
-    </div>
-    </span>
-  </div>
-  </li>
-  <li>
-  <!-- About --> <li>
-      <div class="collapsible-header indigo accent-1" ><i class="material-icons">filter_drama</i>First</div>
-      <div class="collapsible-body grey lighten-1"><span><div id="about">
-  <div class="row">
-    <div class="col s12">
-      <div class="card-panel indigo darken-1 center align">
-        <h3 class="black-text">About me</h3>
-        <p>
-          Me encanta el trabajo en equipo siempre estoy en busqueda de nuevos desafios, que desarrollen mi capacidad y crear experiencias. me caracterizo por ser alegre, me encantan los viajes y conciertos!
-        </p>
+      
+   
+  
+  <div id="section5" class="pageContactMe">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="contact-message">
+            <h1 class="text">Contacto</h1>
+              <h5>keslymartinezvaldes@gmail.com</h5>
+              <a href="https://www.linkedin.com/in/kesly-martinez/">
+                <i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/keslymartinez"><i class="fab fa-github"></i></a>
+                <i class="fas fa-download"></i></a>    
+        </div>
       </div>
     </div>
-  </div>
-</div><span></div>
-    </li>
-    <li>
-  <!--Contactos-->
-  <div class="collapsible-header indigo darken-1 ">
-    <i class="material-icons">person</i>Contacto
-  </div>
-  <div class="collapsible-body grey lighten-1">
-    <span><footer class="page-footer grey lighten-1 center-align ">
-    <div class="row">
-      <div class="col s12">
-        <h2 class="black-text">Contacto</h2>
-      <h5>keslymartinezvaldes@gmail.com</h5>
-      <a href="https://www.linkedin.com/in/kesly-martinez/">
-        <i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/keslymartinez"><i class="fab fa-github"></i></a>
-        <i class="fas fa-download"></i></a>
-        <h6>© 2018 Kesly Martinez</h6>
-      </div>
+   </div>
+   </div>
+  
+ <footer>
+    <div class="container text-center">
+        <div class="row">
+            <p class="copyright text-muted small text-center">Copyright &copy; Kesly Martinez 2018</p>
+          </div>
     </div>
-    </footer></span>
-  </div>
-  </li>
-</ul>
-</div>
+  </footer>
 
-  
-  
-
-
-
-
-<!--About me -->
-
-<!--Contactos-->
-
- 
-<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-  <script src="assets/js/materialize.min.js" type="text/javascript"></script>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script  src="assets/js/particle.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/app2.js" type="text/javascript"></script>
 
-
- 
 </body>
 </html>

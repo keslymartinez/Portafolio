@@ -1,94 +1,214 @@
 * {
 	padding:0;
 	margin:0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 }
 
 /* ---- particles.js container ---- */
 
-#particles-js{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  background: rgba(0,0,0,.8);
+.card-text {
+	color: #4a4e69;
+}
+.btn-primary{
+	background-color: #4a4e69;
+
+}
+.navbar-inverse{
+	background-color: #4a4e69;
+	text-decoration: none;
+	width: 100%;
+	padding: 2px;
+
+}
+p {
+  color:#f2e9e5;
+	margin: 4px;
+	padding: 2px;
+}
+p:hover:{
+	color: #c9ada7;
+}
+.navbar-brand  {
+color:#f2e9e5;
+text-decoration:none;
 }
 
-h1 {
+a {
+	text-decoration: none;
+}
+/*highlight all links to current page*/
+
+
+/*NAVBAR ENDS*/
+
+/*STARTS HOMEPAGE*/
+.pageHome {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url("./../img/present3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 855px;
+    color: #f2e9e5;
+  
+}
+hr{
+  border-color: #f2e9e5;
+}
+body{
+  font-family: Typewolf;
+}
+h1{
+  font-size: 4.2em;
+}
+h3{
+  font-size: 35px;
+}
+
+.btn-default {
+  font-family: Typewolf;
+  background-color: #778899;
+  color: white;
+  border-color: #778899;
+  font-size: 1.7em;
+}
+
+.intro-message{
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+/*Za social buttone postavljanje u block*/
+@media(max-width:767px) {
+   ul.social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+  /*Whole body to this font*/
+  body{
+    font-size: 1.1em;
+  }
+ .navbar-fixed-top{
+    margin: 0px;
+    position: static;
+  }
+}
+
+/*end of Page home*/
+/*STARTS ABOUT PAGE*/
+.pageAbout{
+  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+ padding-bottom: 50px;
+ text-align: center;
+ background: url("../img/portafolio.jpg") no-repeat center center fixed;
+ background-size: cover;
+height: 855px;
+ color: white;
+    
+}
+.about-me{
+  font-size: 2.2em;
+}
+
+.text-and-picture{
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+.picture{
+  padding-top: 3%;
+}
+/*ABOUT SREDITI RESPONZIVNO*/
+@media(max-width:768px) {
+ .text-and-picture {
+        position: relative;
+        display: block;
+        padding-top: 0%;
+        color: 	#f2e9e5;
+    }
+  .picture{
+     margin: auto;
+     width: 400px;
+     height: 200px;
+  }
+}
+
+.shrink-img {
+  height: 300px;
+  width: 500px;
+}
+
+.shrink-img:hover {
+  height: 350px;
+  width: 550px;  
+}
+
+/*START PAGE PORTFOLIO*/
+.pagePortfolio{
+text-align: center;
+background: url("https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=de2ab37fd88bf484feb4e5a2788b2071") no-repeat center center fixed;
+background-size: cover;
+height: 100%;
+color: #f2e9e5;
+
+  
+}
+.card {
+	margin: 2em;
+
+}
+
+
+/*Contacto*/
+.pageContactMe{
+  padding-top: 141px; 
+    background-size: cover;
+    color: #4a4e69;
+    height: 625px;
+ }
+
+.contact-message{
+ color: #4a4e69;
+}
+#submit{
+  color: white;
+  background-color: #778899;
+  font-size: 16px;
+}
+.contact-text{
+ padding-top: 15%;
+ padding-left: 25%;
+ font-size: 2.0em;
+}
+
+/*Footer*/
+.copyright{
+      margin: 15px 0 0;
+}
+.fa-js-square,.fa-html5, .fa-css3, .fa-react, .fa-code-branch, .fa-node-js {
+	font-size: 3em;
+	text-align: center;
+	color: black;
+	margin:1em;
 	position: relative;
-	color: #dd800b;
+}
+.fa-js-square:hover,.fa-html5:hover, .fa-css3:hover, .fa-react:hover, .fa-code-branch:hover, .fa-node-js:hover  {
+	font-size: 3em;
+	text-align: center;
+	color:#f2e9e5 ;
+	margin:1em;
+	position: relative;
 }
 
-#profile {
-	position:relative;
-	height: 250px;
-	width: 250px;
-}
  .fa-github,.fa-linkedin, .fa-envelope, .fa-download {
 	position: relative;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	color: black;
 	margin:1em;
 }
-.ver {
-	margin: 90px auto 0;
-  padding: 12px;
-  width: 180px;
-}
-#skills{
-	position: relative;
-	margin: 35px;
-  font-size: 40px;
-  color: black;
-}
-#presetancion{
-	position: relative;
-	margin: 35px;
-}
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  background-color:#ea80fc;
-}
-
- main {
-  flex: 1 0 auto;
-}
-
-.page-footer {
-	position: relative;
-	margin: 35px;
-}
-
-.material-icons {
-	margin: 2px;
-}
-
-.btn {
-	margin: 40px;
-}
-#about {
-	position: relative;
-	margin: 35px;
-
-}
-#trabajos{
-	 position: relative;
-	 margin: 114px;
-	 height: 200px;
-
-}
-#texto {
-	font-size: 30px;
-	margin:20px;
-}
-
-
-.collapsible {
-	position: relative;
-}
-#acordeon {
-	margin: 35px;
+img {
+	height:200px;
+	width: 200px;
 }
