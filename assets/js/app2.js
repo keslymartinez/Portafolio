@@ -16,16 +16,11 @@ $('ul.tabs li a').click(function(){
 	});
 });
 **/ 
-//funcion para skills
 	
-
-
 $( document ).ready(function() {
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({ target: '.navbar-fixed-top' })
+
+   $('body').scrollspy({ target: '.navbar-fixed-top' })
 });
-
-
 
 
 
@@ -38,5 +33,4 @@ var  typed = new Typed ('.white-text', {
 })
 //  boton para ver portafolio
 
- 
      

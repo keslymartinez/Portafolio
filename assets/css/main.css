@@ -45,7 +45,7 @@ a {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url("./../img/present3.jpg") no-repeat center center fixed;
+    background: url("./../img/fondo.jpeg") no-repeat center center fixed;
     background-size: cover;
     height: 855px;
     color: #f2e9e5;
@@ -100,7 +100,7 @@ h3{
   padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
  padding-bottom: 50px;
  text-align: center;
- background: url("../img/portafolio.jpg") no-repeat center center fixed;
+ background-color: #22223b;
  background-size: cover;
 height: 855px;
  color: white;
@@ -147,13 +147,34 @@ height: 855px;
 /*START PAGE PORTFOLIO*/
 .pagePortfolio{
 text-align: center;
-background: url("https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=de2ab37fd88bf484feb4e5a2788b2071") no-repeat center center fixed;
+background: url("./../img/portafolio.jpeg") no-repeat center center fixed;
 background-size: cover;
 height: 100%;
 color: #f2e9e5;
 
   
 }
+
+.skills{
+text-align: center;
+background:#22223b ;
+background-size: cover;
+height: 855px;
+color: #f2e9e5;
+}
+.skills h1{
+  margin: 200px;
+
+}
+.text:hover {
+  color: black;
+
+
+}
+.text {
+  margin: 200px;
+}
+
 .card {
 	margin: 2em;
 
@@ -162,15 +183,13 @@ color: #f2e9e5;
 
 /*Contacto*/
 .pageContactMe{
-  padding-top: 141px; 
-    background-size: cover;
-    color: #4a4e69;
-    height: 625px;
- }
-
-.contact-message{
- color: #4a4e69;
+text-align: center;
+background: url("./../img/portafolio.jpeg") no-repeat center center fixed;
+background-size: cover;
+height: 855px;
+color: #f2e9e5;
 }
+
 #submit{
   color: white;
   background-color: #778899;
@@ -189,16 +208,16 @@ color: #f2e9e5;
 .fa-js-square,.fa-html5, .fa-css3, .fa-react, .fa-code-branch, .fa-node-js {
 	font-size: 3em;
 	text-align: center;
-	color: black;
+	color: white;
 	margin:1em;
 	position: relative;
 }
 .fa-js-square:hover,.fa-html5:hover, .fa-css3:hover, .fa-react:hover, .fa-code-branch:hover, .fa-node-js:hover  {
 	font-size: 3em;
 	text-align: center;
-	color:#f2e9e5 ;
+	color:yellow;
 	margin:1em;
-	position: relative;
+	position: #22223b;
 }
 
  .fa-github,.fa-linkedin, .fa-envelope, .fa-download {
@@ -212,3 +231,6 @@ img {
 	height:200px;
 	width: 200px;
 }
+
+
+
